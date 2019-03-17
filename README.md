@@ -1,11 +1,11 @@
-#CUSTOMERS CRUD APP
+# CUSTOMERS CRUD APP
 
-To run this project you should run first a JSON server by using the command "json-server --watch db.json --port 3001" and then run the project.<br>
+To run this project you should run first a JSON server by using the command `json-server --watch db.json --port 3001` and then run the project.<br>
 
 This practice includes on purpose some conditions like an only-increasing age input, lowercased inputs and uppercased names on the main customers list.
 
 ### Optional demo validation
-For extra sample validations from a mock server you need to run also the node-server.js file by using the command "node node-server.js" to add the customized code to the previously runned JSON server. The extra validation will show an error message if the age is 18+ on a customer with the ID 30000001 (the one just visible on db.json file). If you want to modify the ID, just change that number on line 12 from node-server.js file. Otherwise add a new customer with the ID 30000001 directly on db.json file
+For extra sample validations from a mock server you need to run also the node-server.js file by using the command `node node-server.js` to add the customized code to the previously runned JSON server. The extra validation will show an error message if the age is 18+ on a customer with the ID 30000001 (the one just visible on db.json file). If you want to modify the ID, just change that number on line 12 from node-server.js file. Otherwise add a new customer with the ID 30000001 directly on db.json file
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
