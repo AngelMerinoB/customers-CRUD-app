@@ -1,0 +1,46 @@
+{
+  "customers": [
+    {
+      "id": "27000000",
+      "dni": "27000001",
+      "name": "JAMES WILLIAMS",
+      "age": 37
+    },
+    {
+      "dni": "50000",
+      "name": "MATT JOHNSON",
+      "age": 34,
+      "id": "30000001"
+    },
+    {
+      "id": "33000000",
+      "dni": "33000000",
+      "name": "ROLAND DESCHAIN",
+      "age": 32,
+      "isDeleteAllow": false
+    },
+    {
+      "id": "pdv6ofF",
+      "dni": "585858588",
+      "name": "IVY LAWRENCE",
+      "age": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
